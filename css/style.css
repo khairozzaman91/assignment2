@@ -3,7 +3,8 @@
 
 *{
     font-family: 'Work Sans', sans-serif;
-    overflow: hidden;
+    max-width: 100%;
+    
 }
 
 
@@ -75,6 +76,7 @@ span{
 
 .about ul{
     display: flex;
+    text-decoration: none;
     justify-content: space-between;
 
 }
@@ -145,3 +147,112 @@ span{
 
 /* header section end  */
 
+
+/* main section start */
+
+/* bannner 1 section start */
+
+.banner1{
+    width: 1920px;
+    height: 600px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+    display: flex;
+  
+}
+
+.section1{
+    width: 901px;
+    height: 700px;
+    background: #FFF;
+    
+}
+
+
+
+.section2{
+    width: 901px;
+    height: 700px;
+    background: #FFF;
+}
+
+.bannerpic{
+    padding-top: 19px;
+}
+
+/* banner1 section ends */
+
+/* banner2 section start */
+.banner2{
+    width: 1920px;
+    height: 600px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+    display: flex;
+  
+}
+.imgsec{
+    width: 868px;
+    height: 489px;
+    padding: 55px 0px 0px 240px;
+}
+
+.wegame{
+    width: 325px;
+    height: 56px;
+    text-align: right;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 95px 240px 0px 247px;
+}
+
+.deatisdescribe{
+    width: 520px;
+    height: 120px; 
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 24px 0px 0px 52px;
+
+}
+
+.btn_more{
+    color: #FFF;
+    
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 48px;
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+    margin: 32px 0px 0px 364px;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.ourpurpose{
+    width: 520px;
+    height: 88px;
+    color: #534C64;
+    text-align: right;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 24px 0px 0px 52px;
+
+}
+
+.unleash{
+    color: #534C64;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+}
