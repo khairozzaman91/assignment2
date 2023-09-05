@@ -3,7 +3,7 @@
 
 *{
     font-family: 'Work Sans', sans-serif;
-    max-width: 100%;
+   
   
     
 }
@@ -15,8 +15,8 @@
 
 
 header{
-    width: 1920px;
-    height: 130px;
+    /* width: 1920px;
+    height: 130px; */
     background-color: #FFFFFF;
 }
 
@@ -407,4 +407,63 @@ span{
             font-style: normal;
             font-weight: 500;
 
+    }
+
+    /* div section end  */
+
+    /* onlinedownload div section start */
+
+    .onlinedownload{
+        width: 1520px;
+        height: 800px;
+        display: flex;
+        justify-content: space-between;
+        /* padding: 70px 150px 0px 150px; */
+        margin: 70px 150px 0px 150px;
+       
+        
+    }
+
+    .downloadonline{
+        width: 341px;
+        height: 180px;
+        padding: 143px 0px 0px 158px;
+        text-align: center;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        gap: 50px;
+    
+
+    }
+
+    .discriveonline{
+        width: 353px;
+        height: 90px;
+        padding: 16px 0px 0px 164px;
+        color: #534C64;
+        text-align:center;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        
+    }
+
+    .imgdownload{
+        padding: -5px 220px 0px 0px;
+    }
+    .imgdownload img{
+        width: 60%;
+    }
+
+    .imgdownload .imgsize{
+        width: 30%;
+    }
+    .img1{
+        padding-left: 403px;
+    }
+
+    .imgsize{
+        margin-top: -250px;
+        margin-left: 240px;
     }
