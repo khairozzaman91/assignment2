@@ -1,0 +1,147 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
+
+*{
+    font-family: 'Work Sans', sans-serif;
+    overflow: hidden;
+}
+
+
+
+
+/* header section  start*/
+
+
+header{
+    width: 1920px;
+    height: 130px;
+    background-color: #FFFFFF;
+}
+
+
+.navbarhead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* namelog */
+.namelog{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* imglogo */
+
+.imglogo{
+    padding: 44px 15px 46px 240px;
+    color: #FFFFFF;
+}
+
+/* game */
+
+.game{
+    text-align: center;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    color: #0B0223;
+    width: 147px;
+    height: 53px;
+    padding: 38px 0 39px 20px;
+    
+}
+
+span{
+     background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+    background-clip: text;
+    -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent; 
+}
+
+/* aboutdeveloper  */
+
+
+
+
+
+/* .about */
+.aboutdeveloper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about ul{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.about ul li a{
+    text-decoration: none;
+    
+}
+
+.aboutus{
+    width: 81px;
+    height: 21px;
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 37px 40px 37px 575px;
+    
+}
+
+
+
+.Develop{
+    width: 98px;
+    height: 21px;
+    color: #3C354F;
+    text-align: center; 
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 54px 32px 55px 0;
+   
+
+   
+}
+
+
+
+.follow{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 262px;
+    height: 56px;
+    padding: 37px 240px 37px 1418;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+
+}
+
+/* follwus */
+.follwus{
+    width: 116px;
+    height: 21px;
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 16px 0 16px 44px;
+    
+}
+.yoti{
+    padding: 16px 24px 16px 0;
+}
+
+/* header section end  */
+
