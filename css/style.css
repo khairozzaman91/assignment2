@@ -352,7 +352,7 @@ span{
 
 .onlinecollection{
     padding-top: 120px;
-    padding-left: 632px;
+    padding-left: 696px;
     padding-right: 633px;
     width: 627px;
 }
@@ -384,4 +384,27 @@ span{
         height: 30px;
        padding-left: 55px;
        
+    }
+
+    /* div picid="picdescrive" start */
+
+
+    .futureimgadescrive{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 24px 240px 0px 240px;
+
+    }
+
+   
+
+    #picdescrive{
+             width: 360px;
+             height: 60px;
+             color: #534C64;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+
     }
