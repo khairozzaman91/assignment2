@@ -467,3 +467,43 @@ span{
         margin-top: -250px;
         margin-left: 240px;
     }
+
+    /* online play section */
+
+    .onlineplay{
+        width: 1520px;
+        height: 800px;
+        display: flex;
+        justify-content: space-between;
+        /* padding: 70px 150px 0px 150px; */
+        margin: 70px 150px 0px 150px;
+    }
+
+   
+    .imgsizeplay{
+        margin-top: -250px;
+        margin-left: 520px;
+    }
+
+    .playonline{
+        width: 341px;
+        height: 180px;
+        padding: 143px 0px 0px 18px;
+        text-align: center;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        gap: 50px;
+    }
+
+    .discriveonlineplay{
+        width: 353px;
+        height: 90px;
+        padding: 16px 0px 0px 16px;
+        color: #534C64;
+        text-align:center;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        
+    }
