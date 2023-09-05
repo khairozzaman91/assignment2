@@ -507,3 +507,126 @@ span{
         font-weight: 400;
         
     }
+
+    /* carrer section start */
+
+    .carrer{
+        margin-top: 220px;
+        height: 821px;    
+        background: #b33982;
+        display: flex;
+        gap: 50PX;
+        justify-content: space-between;
+
+    }
+
+    .carrer1{
+
+              background-image: url("../images/Group\ 14.png");
+              background-repeat: no-repeat;
+              background-size: 600px;
+              background-position:left center;
+              background-position: fixe;
+              
+             
+    }
+
+    #careername{
+        color: #FFF;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        padding-top: 120px;
+        padding-left: 240px;
+
+    }
+
+    #careerdescrive{
+        width: 680px;
+        height: 120px;
+        color: #FFF;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        padding-top: 24px;
+        padding-left: 240px;
+
+
+    }
+
+    .carrertopic{
+        display: flex;
+         justify-content: space-around;
+        align-items: center;
+    }
+
+    .imgcarrer{
+        margin-left: 250PX;
+        
+    }
+
+    .carrersub1{
+        color: #FFF;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        padding-left: 240px;
+        padding-top: 32px;
+        width: 337px;
+        height: 240px;
+
+    }
+
+    .carrer2{
+        color: #FFF;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        padding-left: 97px;
+        padding-top: 32px;
+        width: 246px;
+        height: 240px;
+    }
+
+    /* futures div section start */
+
+    .futures{
+        display: flex;
+        flex-wrap: wrap;
+        height: 400px;
+        align-content: space-between;
+    }
+
+
+   
+    .imgcontanier{
+        display: flex;
+        justify-content:first baseline;
+        gap: 30PX;
+        width: 245PX;
+        height: 80PX;
+        border-radius: 50px;
+        background: #FFF;
+
+    }
+
+
+
+
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap; /* Allow items to wrap to the next row */
+        justify-content: space-between; /* Distribute items evenly */
+        width: 400px; /* Set the width of the container to your desired value */
+      }
+      
+      .item {
+        width: calc(33.33% - 10px); /* Calculate item width based on the container's width */
+        margin-bottom: 10px; /* Add some margin between items for spacing */
+        text-align: center;
+        padding: 10px;
+        border: 1px solid #ccc;
+      }
+      
+    
+      
