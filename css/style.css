@@ -131,14 +131,14 @@ span{
     padding: 37px 240px 37px 1418;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
-    gap: 40px;
+    gap: 30px;
     
 
 }
 
 /* follwus */
 .follwus{
-    width: 116px;
+    width: 300px;
     height: 21px;
     color: #3C354F;
     text-align: center;
