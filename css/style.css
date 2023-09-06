@@ -82,11 +82,15 @@ span{
 
 }
 
-
+.about ul li{
+    list-style: none;
+}
 .about ul li a{
     text-decoration: none;
-    
+   
 }
+
+
 
 .aboutus{
     width: 81px;
@@ -96,7 +100,7 @@ span{
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
-    padding: 37px 40px 37px 575px;
+    padding: 37px 40px 37px 560px;
     
 }
 
@@ -127,6 +131,8 @@ span{
     padding: 37px 240px 37px 1418;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
+    gap: 40px;
+    
 
 }
 
@@ -136,15 +142,15 @@ span{
     height: 21px;
     color: #3C354F;
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    padding: 16px 0 16px 44px;
+    display: inline;
+    padding: 16px 0 16px 10px;
+   
     
 }
-.yoti{
-    padding: 16px 24px 16px 0;
-}
+
 
 /* header section end  */
 
@@ -194,6 +200,10 @@ span{
     padding: 4px 0px 0px 240px;
 }
 
+.clickdown{
+    margin-left: -166px;
+    margin-top: -15px;
+}
 
 
 #click{
@@ -210,7 +220,7 @@ span{
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
-    padding: 12px 0px 0px 276px;
+    padding: 10px 0px 0px 433px;
 
 }
 #supported{
@@ -218,7 +228,7 @@ span{
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
-    padding: 12px 0px 0px 276px;
+    padding: 10px 0px 0px 431px;
 }
 
 
@@ -496,15 +506,34 @@ span{
         gap: 50px;
     }
 
+    .playonlineclick{
+        width: 426px;
+        height: 180px;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        padding-top: 250px;
+
+    }
+
+    #gamesonlesplay{
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+    }
+
+
     .discriveonlineplay{
-        width: 353px;
+        width: 483px;
         height: 90px;
-        padding: 16px 0px 0px 16px;
+        padding: 16px 0px 0px 00px;
         color: #534C64;
         text-align:center;
         font-size: 18px;
         font-style: normal;
         font-weight: 400;
+
         
     }
 
